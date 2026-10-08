@@ -1,9 +1,9 @@
 <?php
 // conexion.php
 $host = 'localhost';
-$dbname = 'miura_db'; // El nombre de tu base de datos en MySQL
+$dbname = 'tapizados_miura'; // El nombre de tu base de datos en MySQL
 $username = 'root'; // Tu usuario de MySQL
-$password = ''; // Tu contraseña de MySQL (vacía por defecto en XAMPP)
+$password = 'Santi90Sql40'; // Tu contraseña de MySQL (vacía por defecto en XAMPP)
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
